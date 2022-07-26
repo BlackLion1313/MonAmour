@@ -1,0 +1,46 @@
+.about-wrapper{
+    margin-top: 101px;
+}
+.about-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.about{
+    display: flex;
+}
+.about-left{
+    display: flex;
+    flex: 50%;
+    margin-top: 81px;
+    margin-left: 193px;
+}
+.about-right{
+    flex: 50%;
+
+}
+.about-heading{
+    display: inline-block;
+    margin-top: 57px;
+    font-size: 32px;
+    margin-right: 190px;
+}
+.about-heading-black{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 32px;
+}
+.about-heading-red{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 32px;
+    color: #EE4248;
+}
+.about-text{
+    margin-top: 24px;
+    margin-right: 192px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.about-img{
+
+}

@@ -1,0 +1,20 @@
+@import "theme.css";
+@import "fonts.css";
+@import "reset.css";
+@import "navBar.css";
+@import "footer.css";
+
+.page-wrapper {
+    background-color: #E5E5E5;;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex-grow: 1;
+}
+ .container {
+     max-width: 1125px;
+     margin: 0 auto;
+     padding: 0 16px;
+ }
