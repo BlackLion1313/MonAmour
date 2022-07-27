@@ -1,0 +1,15 @@
+.contacts-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 48px;
+}
+.contacts {
+    margin-top: 100px;
+}
+.Phone {
+    color: rgba(38, 50, 56, 1);
+
+}
+.companyInfo {
+    color: rgba(38, 50, 56, 1);;
+}
