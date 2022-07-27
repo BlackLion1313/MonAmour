@@ -24,8 +24,8 @@
 
 .products-features {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 48px;
 }
 
 
@@ -47,16 +47,11 @@
         margin-bottom: 16px;
     }
 
-    .products-features-item {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 48px;
-    }
-
     .products-features-item__img {
         margin-bottom: 16px;
         width: 60px;
     }
+
     .products-features-item {
         display: flex;
         flex-direction: column;
