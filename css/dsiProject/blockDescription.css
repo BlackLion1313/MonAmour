@@ -1,20 +1,24 @@
-.description-wrapper{
+.description-wrapper {
     padding: 118px 0;
 }
-.description{
+
+.description {
     display: flex;
 }
-.description-left{
+
+.description-left {
     margin-right: 12px;
     flex: 45%;
 }
-.description-heading{
+
+.description-heading {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 133.69%;
 }
-.description-heading-red{
+
+.description-heading-red {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -22,12 +26,14 @@
     color: #EE4248;
     margin-bottom: 24px;
 }
-.description-text{
+
+.description-text {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
 }
-.description__button{
+
+.description__button {
     display: inline-block;
     background: #EE4248;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
@@ -40,10 +46,12 @@
     margin-top: 16px;
 
 }
-.description-right{
+
+.description-right {
     flex: 55%;
 
 }
-.description-img{
+
+.description-img {
     width: 100%;
 }
