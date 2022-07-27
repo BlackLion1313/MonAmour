@@ -1,5 +1,7 @@
 .about-wrapper{
     margin-top: 101px;
+    background: rgba(246, 246, 246, 1);
+
 }
 .about-container{
     max-width: 1440px;

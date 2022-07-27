@@ -1,5 +1,4 @@
 .description-wrapper{
-    background: #FFFFFF;
     padding: 118px 0;
 }
 .description{
@@ -29,14 +28,16 @@
     font-size: 20px;
 }
 .description__button{
-    margin-top: 36px;
-    font-size: 20px;
-    line-height: 29px;
-    color: #FFFFFF;
+    display: inline-block;
+    background: #EE4248;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
-    background:#EE4248;
-    padding: 12px 33px;
+    padding: 12px 32px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 29px;
+
 }
 .description-right{
     flex: 55%;

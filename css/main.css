@@ -3,9 +3,10 @@
 @import "reset.css";
 @import "navBar.css";
 @import "footer.css";
+@import "button.css";
 
 .page-wrapper {
-    background-color: #E5E5E5;;
+    background: rgba(255, 255, 255, 1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
