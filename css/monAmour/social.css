@@ -1,0 +1,22 @@
+.social-wrapper {
+    margin-top: 74px;
+}
+
+.social_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__img {
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.social_link {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}

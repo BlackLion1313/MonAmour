@@ -1,0 +1,10 @@
+.company_logo {
+    margin-top: 66px;
+    text-align: center;
+}
+
+@media (max-width: 380px) {
+    .company_logo {
+        margin-top: 80px;
+    }
+}

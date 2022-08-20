@@ -1,22 +1,39 @@
 @import "fonts.css";
 @import "reset.css";
-@import "navBar.css";
 @import "footer.css";
-@import "button.css";
+@import "header.css";
 
 .page-wrapper {
-    background: rgba(255, 255, 255, 1);
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/background_girls/left.png") left 108px no-repeat, url("../images/background_girls/right.png") right 77px no-repeat;
 }
 
 .content {
-    flex-grow: 1;
+    z-index: 2;
+}
+
+body {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container {
-    max-width: 1125px;
+    max-width: 1144px;
     margin: 0 auto;
-    padding: 0 16px;
 }
+
+@media (max-width: 380px) {
+    .page-wrapper {
+        background: #FFFFFF;;
+    }
+
+    .container {
+        max-width: 356px;
+    }
+}
+

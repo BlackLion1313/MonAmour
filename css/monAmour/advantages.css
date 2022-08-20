@@ -1,0 +1,155 @@
+.advantages-wrapper {
+    margin-top: 82px;
+    margin-bottom: 45px;
+}
+
+.advantages-service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    margin-top: 80px;
+}
+
+.advantages-catalog {
+    text-align: center;
+    margin-top: 108px;
+
+}
+
+.advantages-button {
+    margin-top: 108px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #313131;
+    padding: 22px 135px;
+    border: 3px solid #000000;
+}
+
+.return {
+    display: flex;
+    align-items: center;
+}
+
+.return-image {
+}
+
+.return-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #414141;
+    margin-right: 40px;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+}
+
+.delivery_img {
+    margin-right: 10px;
+}
+
+.delivery-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #414141;
+    margin-right: 30px;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+}
+
+.payment_img {
+    margin-right: 10px;
+}
+
+.payment-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #414141;
+    margin-right: 30px;
+}
+
+.guarantee {
+    display: flex;
+    align-items: center;
+}
+
+.guarantee_img {
+    margin-right: 10px;
+}
+
+.guarantee-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #414141;
+}
+
+@media (max-width: 380px) {
+    .advantages {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 62px;
+    }
+
+    .advantages-service {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        margin: 52px 12px 0 12px;
+    }
+
+    .advantages-catalog {
+        margin-top: 0;
+        order: 2;
+    }
+
+    .advantages-wrapper {
+        margin: 0 0;
+    }
+
+    .advantages-button {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 25px 100px;
+        margin-top: 38px;
+    }
+
+    .payment {
+        margin-top: 10px;
+    }
+
+    .delivery {
+        margin-top: 10px;
+    }
+
+    .guarantee {
+        margin-top: 10px;
+    }
+
+    .return_img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .delivery_img {
+        width: 30px;
+    }
+
+    .payment_img {
+        width: 30px;
+    }
+
+    .guarantee_img {
+        width: 30px;
+    }
+}

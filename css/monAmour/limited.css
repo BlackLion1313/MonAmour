@@ -1,0 +1,22 @@
+.limited-wrapper {
+
+}
+
+.limited-heading {
+    margin-top: 168px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+@media (max-width: 380px) {
+    .limited-heading {
+        margin-top: 82px;
+        font-size: 32px;
+        line-height: 44px;
+    }
+}

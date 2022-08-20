@@ -1,8 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    font: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
