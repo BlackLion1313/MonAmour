@@ -100,7 +100,7 @@
     padding: 22px 36px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 1200px) {
     .chicago {
         display: flex;
         flex-direction: column;

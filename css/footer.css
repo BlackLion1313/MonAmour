@@ -72,12 +72,13 @@
 }
 
 .social-footer {
-    display: flex;
-    align-items: center;
+
+
 
 }
 
-.footer_social_link {
+.footer_social_link_instagram {
+
 
 }
 
@@ -90,7 +91,7 @@
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 1200px) {
     .footer-wrapper {
         padding: 24px 32px 25px 35px;
     }
@@ -162,19 +163,20 @@
         grid-column: 1/2;
     }
 
-    .footer_social_link {
+    .footer_social_link_instagram {
+
+    }
+    .footer_social_link_telegram {
 
     }
 
-    .footer-social__img {
-
-    }
 
     .footer-social__instagram {
-        width: 22px;
+        width: 24px;
     }
 
     .footer-social__telegram {
         width: 25px;
+
     }
 }

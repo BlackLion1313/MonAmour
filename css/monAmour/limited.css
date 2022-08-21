@@ -13,7 +13,7 @@
     color: #000000;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 1200px) {
     .limited-heading {
         margin-top: 82px;
         font-size: 32px;

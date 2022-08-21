@@ -94,7 +94,7 @@
     color: #414141;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 1200px) {
     .advantages {
         display: flex;
         flex-direction: column;
