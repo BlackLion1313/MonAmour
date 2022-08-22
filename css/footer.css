@@ -72,7 +72,8 @@
 }
 
 .social-footer {
-
+    display: flex;
+    align-items: center;
 
 
 }
@@ -166,6 +167,7 @@
     .footer_social_link_instagram {
 
     }
+
     .footer_social_link_telegram {
 
     }
